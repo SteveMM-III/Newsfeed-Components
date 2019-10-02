@@ -176,7 +176,7 @@ const ArticleCreator = ( obj ) => {
       spn.textContent = spn.textContent === down ? up : down;
    });
    
-   spn.style.width = '80%';
+   spn.style.width     = '80%';
    spn.style.textAlign = 'center';
 
    return article;

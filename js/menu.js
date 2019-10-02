@@ -34,11 +34,9 @@ let menuItems = [
   
 */
 
-const MenuCreator = ( arr ) => {
-   
-//   
-   const menu    = document.createElement( 'nav'         );
-   const list    = document.createElement( 'ul'          );
+const MenuCreator = ( arr ) => { 
+   const menu = document.createElement( 'nav' );
+   const list = document.createElement( 'ul'  );
    
    menu.appendChild( list );
    
