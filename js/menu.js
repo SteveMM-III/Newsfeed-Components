@@ -62,23 +62,3 @@ window.onload = () => {
    header.prepend( menu );
    menuBtn.addEventListener( 'click', () => { menu.classList.toggle( 'menu--open' ); } );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
